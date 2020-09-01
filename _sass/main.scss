@@ -26,17 +26,32 @@ a {
   color: unset;
 }
 
+textarea {
+  border: none;
+  transition: border-left .05s;
+  padding: .8em .4em;
+}
+
 input {
   border: none;
   // background-color: #fff;
   padding: .8em .4em;
   margin: 10px 0;
-  width: inherit;
+  // width: inherit;
   font-family: $bodyFont;
   transition: border-left .05s;
 }
+label {
+  font-size: .8em;
+  font-weight: bold;
+  color: #AAAAAA;
+}
 
 input:focus{
+  border-left: 4px solid #FF914D;
+}
+
+textarea:focus {
   border-left: 4px solid #FF914D;
 }
 
@@ -88,6 +103,7 @@ header {
 }
 
 .btn, .btn-sm {
+  border: none;
   display: inline-block;
   background: #FF914D;
   padding: 1em;
@@ -111,8 +127,8 @@ header {
   background-color: #F3F3F3;
   // scroll-behavior: smooth;
 
-  h3 {
-    background-color: #F3F3F3;
+  h2 {
+      background-color: #F3F3F3;
   }
 
   img {
@@ -123,26 +139,47 @@ header {
     position: relative;
     background-color: white;
     padding: 1em;
-    line-height: 1.5em;
-    margin-top: -5em;
+    line-height: 1.8em;
+    margin-top: -8em;
     z-index: 10;
+
+    .title {
+      font-weight: 500;
+    }
+
+    .price {
+      font-weight: bold;
+      font-size: 1.4em;
+    }
+    .location {
+      font-size: .8em;
+      color: #797979;
+    }
+
   }
 }
 
 .contact {
   padding: 2em 0;
 
-  h3 {
+  input, textarea {
+    background-color: #F3F3F3;
+  }
+  h2 {
     background-color: #fff;
+  }
+  button {
+    width: 50%;
+    margin-top: 1em;
   }
 }
 
 .heading {
   display: flex;
   align-items: center;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 
-  h3 {
+  h2 {
     padding: 0 10px;
     position: absolute;
     margin-left: 20px;
@@ -150,7 +187,7 @@ header {
   .line {
     content: '';
     border-bottom: 1px solid #FF914D;
-    width: 50%;
+    width: 70%;
   }
 }
 

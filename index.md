@@ -13,7 +13,7 @@ title: "Happy Jekylling!"
         </div>
     </nav>
     <div class="copy container">
-        <h2>Hogar hecho realidad</h2>
+        <h1>Hogar hecho realidad</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
        <a href="#properties" class="btn">Ver propiedades</a>
     </div>
@@ -22,16 +22,20 @@ title: "Happy Jekylling!"
 <div class="properties" id="properties">
     <div class="container">
       <div class="heading">
-        <h3 class="">Propiedades</h3>
+        <h2 class="">Propiedades</h2>
         <div class="line"></div>
       </div>
-        <input type="text" placeholder="Busca por: colonia, precio, ciudad...">
+      <label for="search-property">
+        Busca una propiedad:
+      </label>
+      <br>
+      <input type="text" id="search-property" placeholder="Busca por: colonia, precio, ciudad...">
     </div>
     <div class="container">
         <img src="https://picsum.photos/600/600?grayscale" alt="">
         <div class="property-footer">
             <p class="title">Casa en Jardines del Valle</p>
-            <p class="price">$1,000,000 MXN</p>
+            <p class="price">$ 1,000,000 MXN</p>
             <p class="location ">Jardines del Valle, Zapopan, Jalisco</p>
             <!-- <p>Tamaño</p>
             <p>Pisos</p>
@@ -45,9 +49,22 @@ title: "Happy Jekylling!"
 <div class="contact">
   <div class="container">
     <div class="heading">
-      <h3 class="">Contacto</h3>
+      <h2 class="">Contacto</h2>
       <div class="line"></div>
     </div>
 
+    <b>¿Encontraste lo que buscabas?</b>
+    <br><br>
+    <form class="" action="" method="POST">
+      <label for="fullname">Nombre completo</label><br>
+      <input type="text" id="fullname" name="fullname" value="" placeholder="Juan Pérez">
+      <br>
+      <label for="phone">Número celular:</label><br>
+      <input type="text" id="phone" name="phone" value="" placeholder="3350503365">
+      <br>
+      <label for="message">¿En qué te podemos ayudar?</label><br>
+      <textarea name="message" rows="8" cols="50"></textarea>
+      <button type="submit" name="button" class="btn">Enviar</button>
+    </form>
   </div>
 </div>
