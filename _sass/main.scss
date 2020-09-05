@@ -34,6 +34,7 @@ textarea {
   border: none;
   transition: border-left .05s;
   padding: .8em .4em;
+  margin: 10px 0;
 }
 
 input {
@@ -45,6 +46,7 @@ input {
   font-family: $bodyFont;
   transition: border-left .1s;
 }
+
 label {
   font-size: .8em;
   font-weight: bold;
