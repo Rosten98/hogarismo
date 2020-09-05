@@ -63,8 +63,22 @@ title: "Happy Jekylling!"
       <input type="text" id="phone" name="phone" value="" placeholder="3350503365">
       <br>
       <label for="message">¿En qué te podemos ayudar?</label><br>
-      <textarea name="message" rows="8" cols="50"></textarea>
+      <textarea name="message" id="message" rows="8" cols="50"></textarea>
       <button type="submit" name="button" class="btn">Enviar</button>
     </form>
+  </div>
+</div>
+
+<div class="social">
+  <div class="container">
+    <b>Encuentranos en redes sociales y WhatsApp</b>
+    <div class="fb-page"
+      data-href="https://www.facebook.com/HogarismoMx"
+      data-width="500"
+      data-hide-cover="false"
+      data-show-facepile="true">
+    </div>
+    <!-- <button type="button" name="button" class="fb-cta"><i class="fab fa-facebook-messenger"></i>Mensaje a Hogarismo Facebook</button> -->
+    <a href="https://wa.me/13302020202?text=Me%20%20interesa%20obtener%20info%20sobre%20Hogarismo" class="wa-cta"><i class="fab fa-whatsapp"></i>Mensaje a Hogarismo WhatsApp</a>
   </div>
 </div>
