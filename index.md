@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Home"
+title: Inicio
 ---
 <header>
     <nav class="container">
@@ -19,7 +19,7 @@ title: "Home"
 </header>
 
 
-<div class="properties" id="properties">
+<section class="properties" id="properties">
     <div class="container">
       <div class="heading">
         <h2 class="">Propiedades</h2>
@@ -31,26 +31,30 @@ title: "Home"
       <br>
       <input type="text" id="search-property" placeholder="Busca por: colonia, precio, ciudad..."> -->
     </div>
-    {% for post in site.posts %}
-    <div class="container property-card">
+    <div class="container properties-cards">
+      {% for post in site.posts %}
+      <div class="property-card">
         <img src="https://picsum.photos/600/600?grayscale" alt="">
         <div class="property-footer">
-            <p class="title">{{post.title}}</p>
-            <p class="price">{{post.price}}</p>
-            <p class="location "><i class="fas fa-map-marker-alt"></i> {{post.location}}</p>
-            <a href="{{post.url}}" class="btn-sm">Saber más</a>
+          <p class="title">{{post.title}}</p>
+          <p class="price">{{post.price}}</p>
+          <p class="location "><i class="fas fa-map-marker-alt"></i> {{post.location}}</p>
+          <a href="{{post.url}}" class="btn-sm">Saber más</a>
         </div>
+      </div>
+      {%endfor%}
     </div>
-    {%endfor%}
+</section>
+
+<div class="container">
+  <div class="heading">
+    <h2 style="background:white">Contacto</h2>
+    <div class="line"></div>
+  </div>
 </div>
+<section class="contact container" id="contact">
 
-<div class="contact" id="contact">
-  <div class="container">
-    <div class="heading">
-      <h2 class="">Contacto</h2>
-      <div class="line"></div>
-    </div>
-
+  <div class="contact-form">
     <b>¿Encontraste lo que buscabas?</b>
     <br><br>
     <form class="" action="" method="POST">
@@ -65,10 +69,8 @@ title: "Home"
       <button type="submit" name="button" class="btn">Enviar</button>
     </form>
   </div>
-</div>
 
-<div class="social">
-  <div class="container">
+  <div class="social">
     <b>Encuentranos en redes sociales y WhatsApp</b>
     <div class="fb-page"
       data-href="https://www.facebook.com/HogarismoMx"
@@ -79,4 +81,4 @@ title: "Home"
     <!-- <button type="button" name="button" class="fb-cta"><i class="fab fa-facebook-messenger"></i>Mensaje a Hogarismo Facebook</button> -->
     <a href="https://wa.me/13302020202?text=Me%20%20interesa%20obtener%20info%20sobre%20Hogarismo" class="wa-cta"><i class="fab fa-whatsapp"></i>Mensaje a Hogarismo WhatsApp</a>
   </div>
-</div>
+</section>

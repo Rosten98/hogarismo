@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+
+
+{% include navigation.html %}
   <!-- Slideshow container -->
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
@@ -29,19 +32,41 @@ layout: default
 <br>
 
 <!-- The dots/circles -->
-<div style="text-align:center">
+<!-- <div style="text-align:center">
  <span class="dot" onclick="currentSlide(1)"></span>
  <span class="dot" onclick="currentSlide(2)"></span>
  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
+</div> -->
 
 <div class="container">
-  <h2>{{ page.title }}</h2>
+  <h1>{{ page.title }}</h1>
+  {{page.wa}}
+  <div class="heading">
+    <h2 style="background-color:white">Información</h2>
+    <div class="line"></div>
+  </div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   <b>Precio</b>
   <p>{{page.price}}</p>
 
-  <b>Ubicación</b>
-  <p>{{page.location}}</p>
+  <div class="heading">
+    <h2 style="background-color:white">Características</h2>
+    <div class="line"></div>
+  </div>
 
-  {{ content }}
+  <ul>
+    {% for item in page.amenities %}
+    <li>{{item}}</li>
+    {% endfor %}
+  </ul>
+
+
+  <div class="heading">
+    <h2 style="background-color:white">Ubicación</h2>
+    <div class="line"></div>
+  </div>
+
 </div>
+
+
+{{page.map}}
