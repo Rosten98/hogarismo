@@ -1,0 +1,18 @@
+- title: Casa en Jardines del Valle 3 recámaras
+  price: $1'234,567 MXN
+  location: Jardines del Valle, Zapopan, Jalisco
+  location_url: null
+  url: /posts/jardines-del-valle-3-recamaras
+  images: ./assets/properties/jdv
+  amenities:
+    rooms: 3
+    bathrooms: 2
+
+- title: Casa en Jardines del Valle 2 recámaras
+  price: $1'234,567 MXN
+  location: Jardines del Valle, Zapopan, Jalisco
+  location_url: null
+  images: ./assets/properties/jdv
+  amenities:
+    rooms: 2
+    bathrooms: 1

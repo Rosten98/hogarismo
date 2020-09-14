@@ -1,15 +1,14 @@
 ---
 layout: default
-title: "Happy Jekylling!"
+title: "Home"
 ---
-
 <header>
     <nav class="container">
         <img src="/assets/logo.svg" alt="Logo de Hogarismo" width="50px">
         <div class="links">
-            <a href="#">Inicio</a>
-            <a href="#">Contacto</a>
-          <a href="#">Nosotros</a>
+            <a href="/">Inicio</a>
+            <a href="/#contact">Contacto</a>
+          <!-- <a href="#">Nosotros</a> -->
         </div>
     </nav>
     <div class="copy container">
@@ -19,34 +18,33 @@ title: "Happy Jekylling!"
     </div>
 </header>
 
+
 <div class="properties" id="properties">
     <div class="container">
       <div class="heading">
         <h2 class="">Propiedades</h2>
         <div class="line"></div>
       </div>
-      <label for="search-property">
+      <!-- <label for="search-property">
         Busca una propiedad:
       </label>
       <br>
-      <input type="text" id="search-property" placeholder="Busca por: colonia, precio, ciudad...">
+      <input type="text" id="search-property" placeholder="Busca por: colonia, precio, ciudad..."> -->
     </div>
-    <div class="container">
+    {% for post in site.posts %}
+    <div class="container property-card">
         <img src="https://picsum.photos/600/600?grayscale" alt="">
         <div class="property-footer">
-            <p class="title">Casa en Jardines del Valle</p>
-            <p class="price">$ 1,000,000 MXN</p>
-            <p class="location ">Jardines del Valle, Zapopan, Jalisco</p>
-            <!-- <p>Tamaño</p>
-            <p>Pisos</p>
-            <p>recamaras</p>
-            <p>cochera</p> -->
-            <a href="" class="btn-sm">Saber más</a>
+            <p class="title">{{post.title}}</p>
+            <p class="price">{{post.price}}</p>
+            <p class="location "><i class="fas fa-map-marker-alt"></i> {{post.location}}</p>
+            <a href="{{post.url}}" class="btn-sm">Saber más</a>
         </div>
     </div>
+    {%endfor%}
 </div>
 
-<div class="contact">
+<div class="contact" id="contact">
   <div class="container">
     <div class="heading">
       <h2 class="">Contacto</h2>
@@ -74,7 +72,7 @@ title: "Happy Jekylling!"
     <b>Encuentranos en redes sociales y WhatsApp</b>
     <div class="fb-page"
       data-href="https://www.facebook.com/HogarismoMx"
-      data-width="500"
+      data-width="400"
       data-hide-cover="false"
       data-show-facepile="true">
     </div>
