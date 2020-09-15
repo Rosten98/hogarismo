@@ -38,35 +38,46 @@ layout: default
  <span class="dot" onclick="currentSlide(3)"></span>
 </div> -->
 
-<div class="container">
-  <h1>{{ page.title }}</h1>
-  {{page.wa}}
-  <div class="heading">
-    <h2 style="background-color:white">Información</h2>
-    <div class="line"></div>
-  </div>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <b>Precio</b>
-  <p>{{page.price}}</p>
-
-  <div class="heading">
-    <h2 style="background-color:white">Características</h2>
-    <div class="line"></div>
+<div class="container property">
+  <div class="property-title">
+    <h1>{{ page.title }}</h1>
+    {{page.wa}}
   </div>
 
-  <ul>
-    {% for item in page.amenities %}
-    <li>{{item}}</li>
-    {% endfor %}
-  </ul>
+  <div class="property-content">
+    <div class="">
+      <div class="heading">
+        <h2 style="background-color:white">Información</h2>
+        <div class="line"></div>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <div class="price-card">
+        <b>Precio</b>
+        <p>{{page.price}}<span>MXN</span></p>
+      </div>
+    </div>
 
+    <div class="">
+      <div class="heading">
+        <h2 style="background-color:white">Características</h2>
+        <div class="line"></div>
+      </div>
 
-  <div class="heading">
-    <h2 style="background-color:white">Ubicación</h2>
-    <div class="line"></div>
+      <ul>
+        {% for item in page.amenities %}
+        <li>{{item}}</li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
+
+  <div class="property-footer">
+    <div class="heading">
+      <h2 style="background-color:white">Ubicación</h2>
+      <div class="line"></div>
+    </div>
+    {{page.map}}
+  </div>
+
 
 </div>
-
-
-{{page.map}}

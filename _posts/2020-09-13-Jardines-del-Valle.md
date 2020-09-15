@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Casa en Jardines del Valle 3 recámaras
-price: $1'234,567 MXN
+price: $1'234,567
 location: Jardines del Valle, Zapopan, Jalisco
 location_url: null
 url: /posts/jardines-del-valle-3-recamaras

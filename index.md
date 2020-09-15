@@ -35,7 +35,7 @@ title: Inicio
       {% for post in site.posts %}
       <div class="property-card">
         <img src="https://picsum.photos/600/600?grayscale" alt="">
-        <div class="property-footer">
+        <div class="property-card-footer">
           <p class="title">{{post.title}}</p>
           <p class="price">{{post.price}}</p>
           <p class="location "><i class="fas fa-map-marker-alt"></i> {{post.location}}</p>
