@@ -34,10 +34,10 @@ title: Inicio
     <div class="container properties-cards">
       {% for post in site.posts %}
       <div class="property-card">
-        <img src="https://picsum.photos/600/600?grayscale" alt="">
+        <img src="{{ post.images | relative_url }}/10.jpeg" alt="">
         <div class="property-card-footer">
           <p class="title">{{post.title}}</p>
-          <p class="price">{{post.price}}</p>
+          <p class="price">{{post.price}} MXN</p>
           <p class="location "><i class="fas fa-map-marker-alt"></i> {{post.location}}</p>
           <a href="{{post.url}}" class="btn-sm">Saber más</a>
         </div>

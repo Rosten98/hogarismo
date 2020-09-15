@@ -1,14 +1,37 @@
 ---
 layout: post
 title: Terrrenos con vista a la Laguna de Chapala
-price: $1'234,567 MXN
+price: $324,000
 location: Jardines del Valle, Zapopan, Jalisco
 location_url: null
 url: /posts/jardines-del-valle-3-recamaras
-images: './assets/jdv3/'
+images: './assets/images/rsf'
+number_of_images: 15
+description: "
+<p>Disfruta de las vistas espectaculares al LAGO DE CHAPALA.</p>
+<br>
+<p>Terrenos con vista PANORÁMICA a la Laguna de Chapala con una medida estandar de 180m2.</p>
+<br>
+<p>Cuentan con alberca, terraza, fogateros, asadores, pista de jogging y más.</p>
+<br>
+<p>Los precios van desde $324,000 MXN en pago de contado.</p>
+<br>
+<p>Contamos con <b>financiamiento directo</b> en plazos de <b>12 y hasta 96 meses sin intereses</b> con mensualidades desde $5,219 mxn.
+<b>Enganche del 10%</b> en ambas modalidades.</p>
+<br>
+<p>Con Permiso de Urbainzación y entrega de Escrituras 36 meses como máximo que señala el contrato COMPRA-VENTA.</p>
+<br>
+<p>Invierte ahora y aparta el tuyo con <b>$10,000 MXN</b></p>
+<br>
+"
 amenities:
-  - 3 recamaras
-  - 2 baños
-  - 1 estacionamiento
-map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14924.144879543834!2d-103.44516302614288!3d20.749325994424236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af5e16ee8c97%3A0x8bc582915def47be!2sJardines%20del%20Valle%2C%20Zapopan%2C%20Jal.!5e0!3m2!1ses!2smx!4v1600121178805!5m2!1ses!2smx" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  - "Dimensiones: 10m x 18m"
+  - Instalaciones ocultas
+  - Escrituración
+  - Cuentan con con alberca, terraza, fogateros, asadores, pista de jogging, río natural y lago artificial
+  - A un costado del poblado de Tuxcueca
+  - A 10 minutos de San Luis Soyatlán
+  - A 35 minutos de Mazamitla
+map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17816.79964497928!2d-103.19163943461399!3d20.15403253893869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f69a57d8e10c9%3A0xe916be0ef7963d48!2sTuxcueca%2C%20Jal.!5e0!3m2!1ses!2smx!4v1600206543058!5m2!1ses!2smx" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+wa: <a href="https://wa.me/13318127239?text=Me%20%20interesa%20obtener%20info%20sobre%20Terrenos%20Tuxcueca" class="wa-cta" target="_blank"><i class="fab fa-whatsapp"></i>Contactar a Hogarismo</a>
 ---
