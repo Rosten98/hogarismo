@@ -57,15 +57,15 @@ title: Inicio
   <div class="contact-form">
     <b>¿Encontraste lo que buscabas?</b>
     <br><br>
-    <form class="" action="" method="POST">
+    <form class="" action="https://formspree.io/mrgywrav" method="POST">
       <label for="fullname">Nombre completo</label><br>
-      <input type="text" id="fullname" name="fullname" value="" placeholder="Juan Pérez">
+      <input type="text" id="fullname" name="fullname" value="" placeholder="Juan Pérez" required>
       <br>
       <label for="phone">Número celular:</label><br>
-      <input type="text" id="phone" name="phone" value="" placeholder="3350503365">
+      <input type="text" id="phone" name="phone" value="" placeholder="3350503365" required>
       <br>
       <label for="message">¿En qué te podemos ayudar?</label><br>
-      <textarea name="message" id="message" rows="8" cols="50"></textarea>
+      <textarea name="message" id="message" rows="8" cols="50" required></textarea>
       <button type="submit" name="button" class="btn">Enviar</button>
     </form>
   </div>
