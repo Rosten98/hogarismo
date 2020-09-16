@@ -10,7 +10,7 @@ layout: default
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
    <div class="numbertext">{{image}} / {{page.number_of_images}}</div>
-   <img src="{{ page.images | relative_url }}/{{image}}.jpeg" style="width:100%;height:600px">
+   <img src="{{ page.images | relative_url }}/{{image}}.jpeg" class="img-slides">
   </div>
   {% endfor %}
 

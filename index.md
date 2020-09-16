@@ -34,7 +34,7 @@ title: Inicio
     <div class="container properties-cards">
       {% for post in site.posts %}
       <div class="property-card">
-        <img src="{{ post.images | relative_url }}/1.jpeg" alt="">
+        <img src="{{ post.images | relative_url }}/1.jpeg" alt="" class="fade">
         <div class="property-card-footer">
           <p class="title">{{post.title}}</p>
           <p class="price">{{post.price}} MXN</p>
@@ -79,6 +79,6 @@ title: Inicio
       data-show-facepile="true">
     </div>
     <!-- <button type="button" name="button" class="fb-cta"><i class="fab fa-facebook-messenger"></i>Mensaje a Hogarismo Facebook</button> -->
-    <a href="https://wa.me/13302020202?text=Me%20%20interesa%20obtener%20info%20sobre%20Hogarismo" class="wa-cta"><i class="fab fa-whatsapp"></i>Mensaje a Hogarismo WhatsApp</a>
+    <a href="https://wa.me/5213302020202?text=Me%%20interesa%20obtener%20info%20sobre%20Hogarismo" class="wa-cta"><i class="fab fa-whatsapp"></i>Mensaje a Hogarismo WhatsApp</a>
   </div>
 </section>
