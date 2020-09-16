@@ -79,6 +79,6 @@ title: Inicio
       data-show-facepile="true">
     </div>
     <!-- <button type="button" name="button" class="fb-cta"><i class="fab fa-facebook-messenger"></i>Mensaje a Hogarismo Facebook</button> -->
-    <a href="https://wa.me/5213302020202?text=Me%%20interesa%20obtener%20info%20sobre%20Hogarismo" class="wa-cta"><i class="fab fa-whatsapp"></i>Mensaje a Hogarismo WhatsApp</a>
+    <a href="https://wa.me/5213318127239?text=Me%%20interesa%20obtener%20info%20sobre%20Hogarismo" class="wa-cta"><i class="fab fa-whatsapp"></i>Mensaje a Hogarismo WhatsApp</a>
   </div>
 </section>
