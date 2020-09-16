@@ -2,11 +2,11 @@
 layout: post
 title: Terrrenos con vista a la Laguna de Chapala
 price: $324,000
-location: Jardines del Valle, Zapopan, Jalisco
+location: Tuxcueca, Jalisco
 location_url: null
-url: /posts/jardines-del-valle-3-recamaras
+permalink: /propiedades/terrenos-tuxcueca-jalisco
 images: './assets/images/rsf'
-number_of_images: 15
+number_of_images: 19
 description: "
 <p>Disfruta de las vistas espectaculares al LAGO DE CHAPALA.</p>
 <br>
@@ -32,6 +32,6 @@ amenities:
   - A un costado del poblado de Tuxcueca
   - A 10 minutos de San Luis Soyatlán
   - A 35 minutos de Mazamitla
-map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17816.79964497928!2d-103.19163943461399!3d20.15403253893869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f69a57d8e10c9%3A0xe916be0ef7963d48!2sTuxcueca%2C%20Jal.!5e0!3m2!1ses!2smx!4v1600206543058!5m2!1ses!2smx" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-wa: <a href="https://wa.me/13318127239?text=Me%20%20interesa%20obtener%20info%20sobre%20Terrenos%20Tuxcueca" class="wa-cta" target="_blank"><i class="fab fa-whatsapp"></i>Contactar a Hogarismo</a>
+map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7491.028295791899!2d-103.1888609734874!3d20.154307217822222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f69a57d8e10c9%3A0xe916be0ef7963d48!2sTuxcueca%2C%20Jal.!5e0!3m2!1ses!2smx!4v1600212947919!5m2!1ses!2smx" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+wa: <a href="https://wa.me/5213318127239?text=Me%20%20interesa%20obtener%20info%20sobre%20Terrenos%20Tuxcueca" class="wa-cta" target="_blank"><i class="fab fa-whatsapp"></i>Contactar a Hogarismo</a>
 ---

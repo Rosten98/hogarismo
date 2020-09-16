@@ -359,7 +359,9 @@ footer {
   max-width: 1240px;
   position: relative;
   margin: auto;
+  background-color: "#000";
   img {
+    object-fit: fill;
     border-top: 3px solid #ff9142;
     border-bottom: 3px solid #ff9142;
   }

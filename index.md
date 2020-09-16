@@ -13,7 +13,7 @@ title: Inicio
     </nav>
     <div class="copy container">
         <h1>Hogar hecho realidad</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Invierte en tu patrimonio y encuentra tu hogar ideal</p>
        <a href="#properties" class="btn">Ver propiedades</a>
     </div>
 </header>
@@ -34,7 +34,7 @@ title: Inicio
     <div class="container properties-cards">
       {% for post in site.posts %}
       <div class="property-card">
-        <img src="{{ post.images | relative_url }}/10.jpeg" alt="">
+        <img src="{{ post.images | relative_url }}/1.jpeg" alt="">
         <div class="property-card-footer">
           <p class="title">{{post.title}}</p>
           <p class="price">{{post.price}} MXN</p>
