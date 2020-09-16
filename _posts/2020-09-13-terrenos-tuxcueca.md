@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Terrrenos con vista a la Laguna de Chapala
+title: Terrrenos panorámicos con vista a la Laguna de Chapala
 price: $324,000
 location: Tuxcueca, Jalisco
 location_url: null
@@ -32,6 +32,6 @@ amenities:
   - A un costado del poblado de Tuxcueca
   - A 10 minutos de San Luis Soyatlán
   - A 35 minutos de Mazamitla
-map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7491.028295791899!2d-103.1888609734874!3d20.154307217822222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f69a57d8e10c9%3A0xe916be0ef7963d48!2sTuxcueca%2C%20Jal.!5e0!3m2!1ses!2smx!4v1600212947919!5m2!1ses!2smx" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7491.028295791899!2d-103.18886097348744!3d20.154307217822222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f69a57d8e10c9%3A0xe916be0ef7963d48!2sTuxcueca%2C%20Jal.!5e0!3m2!1ses!2smx!4v1600216563931!5m2!1ses!2smx" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 wa: <a href="https://wa.me/5213318127239?text=Me%20interesa%20obtener%20info%20sobre%20Terrenos%20Tuxcueca" class="wa-cta" target="_blank"><i class="fab fa-whatsapp"></i>Contactar a Hogarismo</a>
 ---

@@ -31,6 +31,6 @@ amenities:
   - 28 Terrenos exclusivos
   - Acceso Controlado las 24 horas
   - Electrificación Subterránea Híbrida
-map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.512593044765!2d-103.19084268464955!3d20.15437202242571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f6b238818cc4f%3A0xe4fa498890d580b5!2sGuadalajara-Morelia%2C%20Ajijic%2C%20Jal.!5e0!3m2!1ses!2smx!4v1600213099143!5m2!1ses!2smx" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119837.00219536337!2d-103.79367454622317!3d20.179625717856748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8425f2a8b636de95%3A0x9d1ce5271f3104cf!2sAtemajac%20de%20Brizuela%2C%20Jal.!5e0!3m2!1ses!2smx!4v1600216609426!5m2!1ses!2smx" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 wa: <a href="https://wa.me/5213318127239?text=Me%20interesa%20obtener%20info%20sobre%20Terrenos%20Yolosta" class="wa-cta" target="_blank"><i class="fab fa-whatsapp"></i>Contactar a Hogarismo</a>
 ---
