@@ -16,10 +16,11 @@ description: "
 <br>
 <p>Los precios van desde <b>$826,000 MXN</b> en pago de contado.</p>
 <br>
-<p>Con mensualidades desde <b>$5,900 MXN</b>.</p>
+<p>Desde <b>$5,900 MXN</b> por m<sup>2</sup>.</p>
 <br>
-<p>3 meses sin intereses y <b>escrituras gratis</b>.</p>
+<p>3 meses sin intereses.</p>
 <br>
+<p> <b>ESCRITURAS GRATIS</b> .</p>
 <p>Las escrituras gratis son solo en pagos de riguroso contado.</p>
 <br>
 "
