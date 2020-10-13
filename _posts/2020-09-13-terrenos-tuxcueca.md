@@ -16,10 +16,10 @@ description: "
 <br>
 <p>Los precios van desde $324,000 MXN en pago de contado.</p>
 <br>
-<p>Contamos con <b>financiamiento directo</b> en plazos de <b>12 y hasta 96 meses sin intereses</b> con mensualidades desde $5,219 mxn.
+<p>Contamos con <b>financiamiento directo</b> en plazos de <b>12 y hasta 96 meses sin intereses</b> con mensualidades desde $5,219 MXN.
 <b>Enganche del 10%</b> en ambas modalidades.</p>
 <br>
-<p>Con Permiso de Urbainzación y entrega de Escrituras 36 meses como máximo que señala el contrato COMPRA-VENTA.</p>
+<p>Con Permiso de Urbanización y entrega de Escrituras 36 meses como máximo que señala el contrato COMPRA-VENTA.</p>
 <br>
 <p>Invierte ahora y aparta el tuyo con <b>$10,000 MXN</b></p>
 <br>
